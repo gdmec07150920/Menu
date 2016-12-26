@@ -23,7 +23,6 @@ public class MainActivity extends AppCompatActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         menu.add(0,1,0,R.string.m1);
         menu.add(0,1,0,R.string.m2);
-        menu.add(0,1,0,R.string.m3);
         return super.onCreateOptionsMenu(menu);
     }
 
@@ -38,7 +37,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreateContextMenu(menu, v, menuInfo);
         menu.add(0,1,0,R.string.m1);
         menu.add(R.string.m2);
-        menu.add(R.string.m3);
     }
 
     @Override
